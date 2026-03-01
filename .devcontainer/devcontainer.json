@@ -1,0 +1,12 @@
+{
+  "name": "Java Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+  "postCreateCommand": "echo 'Java environment ready!'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  }
+}
